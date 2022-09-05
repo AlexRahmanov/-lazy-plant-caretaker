@@ -1,0 +1,85 @@
+/* ------------------------------    GENERAL    ---------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e0e4d4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #023016;
+}
+
+p {
+  color: #282b35;
+}
+
+.header {
+  background-color: #14361d;
+}
+
+.logo-img {
+  height: 200;
+  width: 500;
+}
+
+footer {
+  background-color: #e0e4d4;
+}
+
+.copyright {
+  background-color: #023016;
+}
+
+/* ------------------------------    LOGIN    ---------------------------------*/
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+/* ------------------------------    HOMEPAGE    ---------------------------------*/
+
+/* CAll TO ACTION SECTION */
+
+.callAction {
+  background-image: url("https://images.pexels.com/photos/2409038/pexels-photo-2409038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  margin: auto;
+}
+
+/* ------------------------------    DASHBOARD    ---------------------------------*/
+
+.form-img {
+  height: 382px;
+  width: 615px;
+}
+
+/* ------------------------------    RESULTS    ---------------------------------*/
+
+/* TIPS SECTION */
+
+.card-img-top {
+  height: 250px;
+}
+
+/* ------------------------------    MEDIA QUERY    ---------------------------------*/
+
+@media screen and (max-width: 768px) {
+  div.form-img-holder {
+    display: none;
+  }
+
+  div.login-img {
+    display: none;
+  }
+}
